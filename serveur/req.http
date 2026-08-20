@@ -1,0 +1,3 @@
+curl -X POST http://localhost:3000/api/films -H "Content-Type: application/json" -d '{"titre":"Poussin", "annee":2000, "realisateur":"le Coq"}'
+
+curl -X DELETE http://localhost:3000/api/films/7  
